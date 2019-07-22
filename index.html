@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>Brady</title>
+<title>Christopher Brady's Portfolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style.css">
@@ -22,19 +22,19 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
   
   <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
-    <i class="fa fa-home w3-xxlarge"></i>
+    <img src="images/ic_home.png">
     <p>HOME</p>
   </a>
-  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-user w3-xxlarge"></i>
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-#008000">
+    <img src="images/ic_about.png">
     <p>ABOUT</p>
   </a>
-  <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+  <a href="#portfolio" class="w3-bar-item w3-button w3-padding-large w3-hover-#008000">
     <img src="images/ic_portfolio.png">
     <p>PORTFOLIO</p>
   </a>
-  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
-    <i class="fa fa-envelope w3-xxlarge"></i>
+  <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hover-#008000">
+    <img src="images/ic_contact.png">
     <p>CONTACT</p>
   </a>
 </nav>
@@ -59,32 +59,33 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
   </header>
 
   <!-- About Section -->
-  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
+  <div class="w3-padding-64 w3-content" id="about">
     <h2 class="w3-text-light-grey">About Me</h2>
-    <!-- <p style="font-size:24px;"> Greetings, and thank you for visiting my webpage! I am a avid sports fan, loving life in the East Bay region of 
-      Northern California. From the anatomy of my favorite players, it's likely obvious that I have allegiance to the teams 
-      who call my area home. With that being said, I am what you could consider a "fan of the game", and by virtue of this,
-      I can always appreciate an intelligent sports conversation.  
-    </p>
-    <br></br>
-     <p style="font-size:24px;">Within the confines of this site, you will find pictures and information about my favorite teams and athletes. 
-      If you have any questions or concerns while exploring, or if you'd just like to talk
-      sports, I have provided a contact page. Don't hesitate to reach out! -->
+    <hr style="width:200px" class="w3-opacity">
       <p style="font-size:18px;">
-        Greetings, and thank you for visiting my webpage! I am a avid sports fan, loving life in the East Bay region of 
-        Northern California. From the anatomy of my favorite players, it's likely obvious that I have allegiance to the teams 
-        who call my area home. With that being said, I am what you could consider a "fan of the game", and by virtue of this,
-        I can always appreciate an intelligent sports conversation </p>
+        Greetings, and thank you for visiting my portfolio site! I am an avid sports fan, loving life in the East Bay region of 
+        Northern California, and am a developer in training. With that being said, I am what you could consider a "fan of the game", and by virtue of this,
+        I can always appreciate an intelligent sports conversation. 
+      </p>
+      <br></br>
+      
+      <p style="font-size:18px;">
+        Here you will find various projects that I have worked on, during my tenure at UC Berkeley's Full Stack Web Development boot camp. The projects range from surveys, games, to app development. 
+        Please feel free to explore and test out any one of my projects. 
+      </p>
+      <br></br>
 
-        <br></br>
-        
-        <p style="font-size:18px;">
-           Thank you for visiting my portfolio site! Here you will find various projects that I have worked on, during my 
-      tenure at UC Berkeley's Full Stack Web Development boot camp. The projects range from surveys, games, to app development. Please feel free to explore and 
-      test out any one of my projects. </p>
+      <audio controls>
+          <source src="oaksong.ogg" type="audio/ogg">
+          <source src="oaksong.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
     
     
-    </div>
+    <br></br>
+    <br></br>
+    
+    
     
     
   <!-- End About Section -->
@@ -98,26 +99,74 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <!-- Grid for portfolio -->
     <!-- left-->
     <div class="w3-row-padding" style="margin:0 -16px">
-      <div class="w3-half">
-        <img src="images/Screenshot5.png" style="width:100%">
-        <a href="https://chrisbrady510.github.io/GIFtastic/"> <h1>GIFTastic</h1></a>
-        <img src="images/Screenshot4.png" style="width:100%">
-        <a href="https://chrisbrady510.github.io/Trivia_Game"> <h1>A's Trivia</h1></a>
-        <img src="images/hangman.png" style="width:100%">
-        <a href="https://chrisbrady510.github.io/Hangman"> <h1>Hangman</h1></a>
+        
+        <div class="w3-half">
+          <!--<a href="https://chrisbrady510.github.io/GIFtastic/"> <h1>GIFTastic</h1></a>-->
+          <h1>GIFTastic</h1>
+          <a href="https://chrisbrady510.github.io/GIFtastic/"> <img src="images/Screenshot5.png" class="image">
+          <div class="overlay">
+          <div class="text">Type a 90's-2000's alternative band into the search bar, and a GIF will be generated along with a rating</div></a>
+        </div>
+        </div>
 
+        
+        <div class="w3-half">
+          <!--<a href="https://chrisbrady510.github.io/Trivia_Game"> <h1>A's Trivia</h1></a>-->
+          <h1>A's Trivia</h1>
+          <a href="https://chrisbrady510.github.io/Trivia_Game"><img src="images/Screenshot4.png" class="image">
+          <div class="overlay">
+          <div class="text">If you're a fan of the Oakland Athletics, then this is the quiz for you. Lets see if you can hit a proverbial homerun.</div></a>
+        </div>
+        </div>
+
+        
+        <div class="w3-half">
+          <!--<a href="https://chrisbrady510.github.io/Hangman"> <h1>Hangman</h1></a>-->
+          <h1>Hangman</h1>
+          <a href="https://chrisbrady510.github.io/Hangman"><img src="images/hangman.png" class="image">
+          <div class="overlay">
+          <div class="text">Can you guess the proper word in time to save your fellow human?</div></a>
+        </div>
+        </div>
+      
+        
+        <div class="w3-half">
+          <!--<a href="https://chrisbrady510.github.io/crystalgame"> <h1>Crystal Collector</h1></a>-->
+          <h1>Crystal Collector</h1>
+          <a href="https://chrisbrady510.github.io/crystalgame"><img src="images/crystal.png" class="image">
+          <div class="overlay">
+          <div class="text">Each Crystal has a different value, add them up to meet target number. Don't go over, or you'll lose!</div></a>
+        </div>
+        </div>
+
+        
+        <div class="w3-half">
+          <!--<a href="https://chrisbrady510.github.io/friend-finder"> <h1>Friend Finder</h1></a>-->
+          <h1>Friend Finder</h1>
+          <a href="https://chrisbrady510.github.io/friend-finder"><img src="images/toystory.png" class="image">
+          <div class="overlay">
+          <div class="overlay">
+          <div class="text">Answer the questions to the best of your ability, and find your favorite toy. Based on Toy Story 4.</div></a>
+        </div>
+        </div>
+        </div>
+        
+        
+        <div class="w3-half">
+          <!--<a href="https://chrisbrady510.github.io/"> <h1>Train</h1></a>-->
+          <h1>Train</h1>
+          <a href="https://chrisbrady510.github.io/train"><img src="images/train.png" class="image">
+          <div class="overlay">
+          <div class="overlay">
+          <div class="text">Don't miss your train! Train Schdule is dynamic, with arrival/departure times provided in miliary time,</div></a>
+        </div>
+        </div>
       </div>
-      <!-- right-->
-      <div class="w3-half">
-        <img src="images/crystal.png" style="width:100%">
-        <a href="https://chrisbrady510.github.io/crystalgame"> <h1>Crystal Collector</h1></a>
-        <img src="images/train.png" style="width:100%">
-        <a href="https://chrisbrady510.github.io/"> <h1>Train</h1></a>
-        <img src="images/toystory.png" style="width:100%">
-        <a href="https://chrisbrady510.github.io/friend-finder"> <h1>Friend Finder</h1></a>
-      </div>
+        
+    
+      
     <!-- End photo grid -->
-    </div>
+  </div>
   <!-- End Portfolio Section -->
   </div>
 
@@ -127,9 +176,9 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     <hr style="width:200px" class="w3-opacity">
 
     <div class="w3-section">
-      <p><i class="fa fa-user  fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Christopher Brady</p>
-      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Phone: (510) 415-1515</p>
-      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: chrismbrady@gmail.com</p>
+      <p><img src="images/ic_about.png"> Christopher Brady</p>
+      <p><img src="images/ic_phone.png"> Phone: (510) 415-1515</p>
+      <p><img src="images/ic_contact.png"> Email: chrismbrady@gmail.com</p>
     </div><br>
     <p>Lets get in touch. Send me a message:</p>
 
